@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-color: white;
+}
+
+.logo {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 62px;
+  padding-right: 75px;
+  background-color: #2c3e50;
+  font-size: 15px;
+}
+.Header-inner {
+  font-size: large;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.Header-inner2 {
+  font-size: 95%;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.logo {
+  position: sticky;
+  top: 0;
+}
+
+.main-inner {
+  height: 550px;
+  background-color: #18bc9c;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 94px;
+  color: #fff;
+}
+.main-inner1 {
+  height: 50vh;
+  text-align: center;
+  padding-top: 34px;
+  background-color: #ffffff;
+  color: #999999;
+  font-weight: lighter;
+}
+
+.main-inner2 {
+  padding-top: 36px;
+  font-size: 52px;
+  font-weight: 10px;
+  letter-spacing: 0px;
+}
+button {
+  padding: 10px;
+  background-color: #18bc9c;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.formail {
+  width: 28%;
+  padding: 9px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+input {
+  padding: 10px;
+}
+
+.Grasshopper {
+  padding-top: 76px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+.boxes {
+  /* height: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px;
+  height: 370px;
+  border-radius: 5px;
+}
+
+.boxes:hover{
+  background-color: #18bc9c;
+}
+
+.ultimate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  transition: 0.4s ease-out;
+
+}
+
+.innerboxa img {
+  border-radius: 50%;
+  padding: 9px;
+}
+.innerboxa {
+  padding: 9px;
+  width: 260px;
+  /* background-color: #ffffff; */
+  text-align: center;
+}
+.innerboxa p {
+  line-height: 22px;
+}
+.innerboxa h3 {
+  padding: 10px;
+}
+
+.outerjourney {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.JourneyMan {
+  font-size: 30px;
+  font-weight: lighter;
+  color: #999999;
+}
+
+.footer {
+  height: 194px;
+  background-color: #2c3e50;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  gap: 10%;
+}
+
+.footer h5 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.footer p {
+  font-size: 12px;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+}
+footer a {
+  color: aqua;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+/* 
+.ultimate {
+  background-color: #18bc9c;
+  scale: 1.05;
+  transition: all 0.4s ease-in-out;
+
+} */
